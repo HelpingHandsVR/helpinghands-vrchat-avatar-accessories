@@ -9,14 +9,8 @@
     "com.vrchat.avatars": {
       "version": "3.10.4"
     },
-    "nadena.dev.modular-avatar": {
-      "version": "1.17.1"
-    },
     "com.poiyomi.toon": {
       "version": "9.3.64"
-    },
-    "com.vrcfury.vrcfury": {
-      "version": "1.1348.0"
     },
     "jp.lilxyzw.liltoon": {
       "version": "2.3.4"
@@ -24,14 +18,20 @@
     "lyuma.av3emulator": {
       "version": "3.4.13"
     },
-    "vrchat.blackstartx.gesture-manager": {
-      "version": "3.9.8"
-    },
     "dev.vrlabs.av3manager": {
       "version": "2.1.2"
     },
     "vrchat.jordo.easyquestswitch": {
       "version": "1.4.0"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.9"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1419.0"
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.18.2"
     }
   },
   "locked": {
@@ -49,22 +49,8 @@
         "com.vrchat.base": "3.10.4"
       }
     },
-    "nadena.dev.modular-avatar": {
-      "version": "1.17.1",
-      "dependencies": {
-        "nadena.dev.ndmf": ">=1.11.0 <2.0.0-a"
-      }
-    },
-    "nadena.dev.ndmf": {
-      "version": "1.14.0",
-      "dependencies": {}
-    },
     "com.poiyomi.toon": {
       "version": "9.3.64",
-      "dependencies": {}
-    },
-    "com.vrcfury.vrcfury": {
-      "version": "1.1348.0",
       "dependencies": {}
     },
     "jp.lilxyzw.liltoon": {
@@ -77,12 +63,6 @@
         "com.vrchat.avatars": "^3.1.0"
       }
     },
-    "vrchat.blackstartx.gesture-manager": {
-      "version": "3.9.8",
-      "dependencies": {
-        "com.vrchat.avatars": ">=3.5.2 < 3.11.X"
-      }
-    },
     "dev.vrlabs.av3manager": {
       "version": "2.1.2",
       "dependencies": {
@@ -91,6 +71,26 @@
     },
     "vrchat.jordo.easyquestswitch": {
       "version": "1.4.0",
+      "dependencies": {}
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.9",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.10.4 < 3.11.X"
+      }
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1419.0",
+      "dependencies": {}
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.18.2",
+      "dependencies": {
+        "nadena.dev.ndmf": ">=1.14.3 <2.0.0-a"
+      }
+    },
+    "nadena.dev.ndmf": {
+      "version": "1.14.4",
       "dependencies": {}
     }
   }
